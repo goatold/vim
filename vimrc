@@ -44,6 +44,9 @@ nnoremap <F3> :set invpaste paste?<CR>
 set pastetoggle=<F3>
 set showmode
 
+" F8 to toggle taglist
+nnoremap <F8> :TlistToggle <CR>
+
 " Delete trailing white space
 func! DeleteTrailingWS()
   exe "normal mz"
