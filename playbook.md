@@ -3,4 +3,8 @@
 - bookmark
  - ma
  - `a
-
+- folding
+ - set foldmethod=syntax
+ - z[mM] to fold
+ - z[rR] to open
+ - zc close, zo open
