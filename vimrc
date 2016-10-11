@@ -47,6 +47,10 @@ set showmode
 " F8 to toggle taglist
 nnoremap <F8> :TlistToggle <CR>
 
+" change tab page
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
 " Delete trailing white space
 func! DeleteTrailingWS()
   exe "normal mz"
